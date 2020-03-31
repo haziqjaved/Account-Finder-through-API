@@ -1,0 +1,75 @@
+body
+{
+    text-align: center;
+    background-image: url(./l.jpg);
+    background-repeat: no-repeat;
+}
+.searchrow
+{
+    width: 1100px;
+    height: auto;
+    background-color: cadetblue;
+    text-align: center;
+    color: azure;
+    border-radius: 5px;
+} 
+button
+{
+    border: 03px solid;
+    border-color: cornflowerblue;
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 05px;
+} 
+#user
+{
+    width: 80%;
+    text-align: center;
+    
+}
+
+
+/* card */
+.card{
+    border: 3px solid;
+    border-color: blueviolet;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+    width: 450px;
+    padding: 0px!important;
+    margin-top: 10px;
+
+    
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    color: lightblue;
+    
+}
+.card button{
+    padding: 5px 30px ;
+    border: 2px solid gray;
+    border-radius: 20px;
+    color: gray;
+    text-align: center;
+    font-size: 15px;
+    background-color: transparent;
+    font-weight: bold;
+}
+.card button:hover
+{
+    background-color: gainsboro;
+}
+#seperate
+{
+    height: 70px;
+    text-align: center;
+    position: relative;
+    margin-top: 40px;
+    background-color: blue;
+    color: aliceblue;
+
+}

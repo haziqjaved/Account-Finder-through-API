@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Card</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body >
+ 
+    <div class="container">
+        <div class="searchrow">
+        <div >
+            <h2>Github Search</h2>
+            <p>Enter username to Search</p>
+            <input type="sumbit" id="user" placeholder="Enter Your Name">
+            <br><br>
+            <button id="button" onclick="Enter()" type="submit">Search</button>
+            <br>
+            <br>
+        </div> 
+        </div>  
+    </div>      
+        <div class="container card" id="card_id">
+            <div id="c_header text-center">
+                <p><img class="rounded-circle my-2" alt="" id="iUser"></p>
+                <p id="user-name"></p>
+            </div>
+                <!-- User Bio -->
+                <div class="text-center m-2 px-1">
+                <h3 class=" bio2 "> <em>Bio</em></h3>
+                <p id="bio"></p>
+                </div>
+                    <!-- User Profile Button -->
+        <div class="c_btn" ><button onclick="veiw_profile()">Visit Account</button></div>
+                <!-- Other Show -->
+                <div class="rows px-5" id="seperate">
+                    <div class="row">
+                        <div class="col-md-4 " id="repository"></div>
+                        <div class="col-md-4 " id="followers"></div>
+                        <div class="col-md-4 " id="following"></div>
+                      </div>
+                    <div class="row" >
+                      <div class="col-md-4 ">Repository</div>
+                      <div class="col-md-4 ">Followers</div>
+                      <div class="col-md-4  ">Following</div>
+                    </div>
+
+                  </div>
+        </div>  
+    </div>
+<script src="index.js"></script>
+
+</body>
+</html>
